@@ -1,16 +1,18 @@
 {
-  "homepage": "http://dant25.github.io/react_app",	
+  "homepage": "http://dant25.github.io/react_app",
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-materialize": "^2.1.4",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
   },
   "scripts": {
-  	"predeploy": "npm run build",
-  	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
